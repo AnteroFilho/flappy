@@ -76,7 +76,7 @@ function Passaro(alturaJogo) {
     let voando = false
 
     this.elemento = novoElemento('img', 'passaro')
-    this.elemento.src = 'https://github.com/AnteroFilho/flappy/blob/9b2c9f0dc148b4264328cdf3bf1a8dc2883eb111/imgs/Capturar.PNG'
+    this.elemento.src = 'imgs/Capturar.PNG'
 
     this.getY = () =>parseInt(this.elemento.style.bottom.split('px'[0]))
     this.setY = y => this.elemento.style.bottom = `${y}px`
